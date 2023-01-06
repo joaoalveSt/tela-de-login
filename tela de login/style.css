@@ -1,0 +1,44 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(45deg,black,rgb(141, 141, 230));
+
+}
+div{
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);    
+    padding: 80px;
+    border-radius: 15px;
+    color: rgba(255, 255, 255, 0.952);
+    
+}
+input{
+    padding: 15px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    border-radius: 15px;
+}
+
+input:hover{
+    background-color: aliceblue;
+    cursor: pointer;
+}
+
+button{
+   background-color: rgb(67, 143, 143);
+   border: none;
+   padding: 15px;
+   width: 100%;
+   border-radius: 15px;
+   color: aliceblue;
+}
+button:hover{
+    background-color: rgb(32, 82, 82);
+    cursor: pointer;
+}
+h1{ 
+    text-align: center;
+}
